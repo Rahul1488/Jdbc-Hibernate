@@ -16,8 +16,9 @@ public class HashLinkedSet {
 		linkedHashSet.add(11);
 		Iterator<Object> iterator = linkedHashSet.iterator();
 		while (iterator.hasNext()) {
-			Object object = (Object) iterator.next();
-			System.out.println(object);
+//			Object object = (Object) iterator.next();
+//			System.out.println(object);
+			System.out.println(iterator.next());
 		}
 	}
 

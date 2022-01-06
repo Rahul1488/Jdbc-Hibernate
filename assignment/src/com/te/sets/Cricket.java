@@ -1,6 +1,7 @@
 package com.te.sets;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Cricket {
 	public static void main(String[] args) {
@@ -23,5 +24,6 @@ public class Cricket {
 		for (Team t : set1) {
 			System.out.println(t);
 		}
+		
 	}
 }

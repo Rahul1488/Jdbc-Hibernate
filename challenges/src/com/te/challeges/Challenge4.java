@@ -17,7 +17,7 @@ public class Challenge4 {
 		int temperature;
 		Scanner sc = new Scanner(System.in);
 		Challenge4 c = new Challenge4();
-		System.out.println("Is it summer");
+		System.out.println("Is it summer(enter either true or false)");
 		d = sc.next();
 		System.out.println("Enter the temperature");
 		temperature = sc.nextInt();

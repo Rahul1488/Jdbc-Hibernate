@@ -12,6 +12,7 @@ public class Main {
 		alphabeticalThread.join();
 		numberThread.start();
 		alphabeticalThread.start();
+		Thread.currentThread().sleep(500);
 	}
 
 }
